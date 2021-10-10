@@ -1,0 +1,117 @@
+<html>
+
+<head>	
+
+<link rel = "icon" href = "a.jpg" sizes = "16 x 16">
+<link rel = "stylesheet" href = "mainstyle.css">
+
+<title> VES Contact Page</title>
+
+</head>
+
+<p id = "p1"> </p> 
+	
+</div>
+
+<img src = "a.jpg">
+
+<script>
+
+function getDate() {
+	var today = new Date();
+	p1.innerHTML = today.toLocaleString();
+}
+
+setInterval(getDate, 1000);
+
+</script>
+
+<br>
+
+<h2 id = "specialheading"> Welcome!</h2>
+
+<script>
+
+alert("Contact me!")
+console.log("Website contact start.");
+
+</script>
+
+<h1> Feedback Page </h1>
+	
+<h2> Quick Access: </h2>
+	
+<nav id = "nav1" class = "class1" style = "text-align: center;">
+
+<a href = "index.html"> | Home |</a>
+<a href = "Mathematics.html"> | Mathematics |</a>
+<a href = "Physics.html"> | Physics |</a>
+<a href = "Chemistry.html"> | Chemistry |</a>
+<a href = "Biology.html"> | Biology |</a>
+<a href = "Contact.html"> | Contact |</a>
+
+</nav>
+	
+<br>
+ 
+<hr>
+
+<body>	
+
+<h2> Please Fill Out: </h2>
+
+<section>
+	<br>
+	<br>
+	<div class = "container">
+		<br>
+		<form action = "https://formspree.io/f/xayalldz" method = "POST" id = "my-form">
+						
+			<div class = "form-group" style = "text-align: center">
+				<label for = "firstName" style = "text-align: center"> First Name: </label>
+				<input type = "text" id = "firstName" name = "firstName" style = "height: 24px;">
+			</div>
+
+			<br>		
+	
+			<div class = "form-group" style = "text-align: center">
+				<label for = "lastName"> Last Name: </label>
+				<input type = "text" id = "lastName" name = "lastName" style = "height: 24px;">
+			</div>
+
+			<br>
+
+			<div class = "form-group" style = "text-align: center">
+				<label for = "email"> Email: </label>
+				<input type = "text" id = "email" name = "email" style = "height: 24px;">
+			</div>
+
+			<br>
+			
+			<div class = "form-group" style = "text-align: center">
+				<label for = "message"> Message: </label>
+				<textarea name = "message" id = "message" cols = "30" rows = "10" style = "text-align: left;">
+				</textarea>
+			</div>
+			
+			<br>					
+	
+			<center> <button type = "submit" style = "font-family: Georgia; text-align: center; margin: auto;"> Submit! </button> </center>
+
+		</form>
+	</div>
+	<br>
+	<div id = "status"></div>
+	<br>
+	<br>
+</section>
+<script src = "./main.js"> </script>
+					
+<hr>
+
+</body>
+	
+<details style = "text-align: center"> <summary> Copyright Info 2021 </summary>
+	- by Anand Ajith. All Rights Reserved. </details>
+
+</html>
